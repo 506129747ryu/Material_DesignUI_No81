@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8EEEC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/background_color"
+                android:scaleType="fitXY"
+                android:src="@drawable/top_background1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:text="@string/welcome_back"
+                android:textColor="#EA6D35"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:autofillHints="Email"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/email"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColorHint="#756C6C" />
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:autofillHints="Password"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColorHint="#756C6C" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:contentDescription="@string/next"
+                android:src="@drawable/btn_arraw1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp">
+
+                <Button
+                    android:id="@+id/button"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:drawableEnd="@drawable/facebook"
+                    android:padding="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/btn_background"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="Facebook"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#3B608C"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:drawableEnd="@drawable/google"
+                    android:padding="8dp"
+                    android:background="@drawable/btn_background"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="Google"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#3B608C"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Are you new user? Register"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"
+                android:textColor="#3B608C"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
