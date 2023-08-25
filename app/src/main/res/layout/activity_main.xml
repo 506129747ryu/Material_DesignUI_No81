@@ -180,7 +180,7 @@
                 android:inputType="text"
 
                 android:padding="8dp"
-                android:text="Name" />
+                android:text="@string/name" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -188,7 +188,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
-                android:background="@drawable/bacgkround_banner">
+                android:background="@drawable/background_banner">
 
                 <ImageView
                     android:id="@+id/imageView8"
@@ -198,13 +198,14 @@
                     android:src="@drawable/logo"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/logo" />
 
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="To Get Unlimited\nUpgrade Your Account"
+                    android:text="@string/upgrade"
                     android:textColor="#ffffff"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -227,7 +228,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -237,7 +239,7 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="0dp"
                             android:layout_gravity="center"
                             android:layout_weight="1"
                             android:background="@drawable/white_background">
@@ -283,7 +285,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView9"
+                                android:id="@+id/imageView10"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -298,7 +300,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView10"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -323,7 +325,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView9"
+                                android:id="@+id/imageView11"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -338,7 +340,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView11"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -363,7 +365,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView9"
+                                android:id="@+id/imageView12"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -378,7 +380,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -410,7 +412,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView9"
+                                android:id="@+id/imageView13"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -425,7 +427,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView13"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -450,7 +452,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView9"
+                                android:id="@+id/imageView14"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -465,7 +467,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView14"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -490,7 +492,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView9"
+                                android:id="@+id/imageView15"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -505,7 +507,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView15"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -530,7 +532,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView9"
+                                android:id="@+id/imageView16"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -545,7 +547,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView16"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
