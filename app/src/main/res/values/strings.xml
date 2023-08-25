@@ -5,4 +5,5 @@
     <string name="welcome_back">Welcome \nBack</string>
     <string name="background_color">background-color</string>
     <string name="next">Next</string>
+    <string name="name">Name</string>
 </resources>
