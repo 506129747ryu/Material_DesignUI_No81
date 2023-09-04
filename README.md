@@ -2,7 +2,6 @@
 
 Youtube Link: https://www.youtube.com/watch?v=2iS5rQlTTB4
 <p align="center>
-<img src="Image/Login.png" alt="Login Page" width="30%" />
-<img src="Image/Signup.png" alt="SignUp Page" width="30%" />
-<img src="Image/main.png" alt="Main Page" width="30%" />
-</p>
+<img src="Image/login.png" alt="LoginPage" width="30%" />
+<img src="Image/Signup.png" alt="SignUpPage" width="30%" />
+<img src="Image/main.png" alt="MainPage" width="30%" />
